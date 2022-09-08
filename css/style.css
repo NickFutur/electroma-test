@@ -96,7 +96,7 @@
       }
       
       .load :last-child {
-          background: #5E428C;
+          background: #1F1F1F;
           height: 40px;
       }
       
@@ -187,7 +187,7 @@
           margin: 5px auto;
           transition: all 0.3s ease-in-out;
           -webkit-transition: all 0.3s ease-in-out;
-          background-color: #5E428C;
+          background-color: #1F1F1F;
       }
       
       .head-text {
@@ -240,10 +240,11 @@
       }
       
       .main-head__link:hover {
-          letter-spacing: 0.04em;
+          /* letter-spacing: 0.04em;
           color: #F3EB91;
           text-shadow: 1px 0 1px #252525, 0 1px 1px #252525, -1px 0 1px #252525, 0 -1px 1px #252525;
-          cursor: pointer;
+          cursor: pointer; */
+          text-decoration: underline;
       }
       
       .main-head__main-title {
@@ -269,7 +270,7 @@
           display: flex;
           align-items: center;
           height: 4.4rem;
-          background-color: #5E428C;
+          background-color: #1F1F1F;
       }
       
       .main-head__navigation__block {
@@ -355,7 +356,7 @@
           display: flex;
           width: 15.94vw;
           height: 18px;
-          background: #5E428C;
+          background: #1F1F1F;
       }
       
       .content__head-block__year {
@@ -373,10 +374,9 @@
           position: relative;
           left: 0px;
           top: 628px;
-          border: 1px solid #F3EB91;
+          border: 1px solid #ffffff;
           width: 100%;
           margin-bottom: 720px;
-          background-color: #F3EB91;
       }
       /*Блок Портфолио*/
       
@@ -420,7 +420,7 @@
           height: 70px;
           border: none;
           font-size: 1.2rem;
-          background-color: #5E428C;
+          background-color: #1F1F1F;
           line-height: 17px;
           text-align: center;
           letter-spacing: 0.04em;
@@ -519,6 +519,25 @@
           border-color: rgb(94, 66, 140, 0);
       }
       
+      .content-work__block-all-black {
+          color: #1F1F1F;
+          padding: 0;
+          list-style-type: none;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: calc( (100vw - 1441px)/(2560 - 1441) * (34 - 24) + 24px);
+          line-height: calc( (100vw - 1441px)/(2560 - 1441) * (36 - 29) + 29px);
+          text-align: justify;
+          letter-spacing: 0.04em;
+          width: 100%;
+          cursor: pointer;
+          min-height: 160px;
+          margin-bottom: 0;
+          align-items: center;
+          text-decoration: none;
+      }
+      
       .content-work__block-all-white {
           color: #ffffff;
           padding: 0;
@@ -536,6 +555,10 @@
           margin-bottom: 0;
           align-items: center;
           text-decoration: none;
+      }
+      
+      .content-work__block-all-black:hover {
+          color: #1F1F1F;
       }
       
       .content-work__block-all-white:hover {
@@ -659,7 +682,7 @@
           right: 0px;
           width: 410px;
           height: 266px;
-          background: #5E428C;
+          background: #67D3F7;
           align-items: center;
           justify-content: center;
           cursor: pointer;
@@ -673,7 +696,7 @@
           width: 100%;
           z-index: 11;
           cursor: pointer;
-          background: #5E428C;
+          background: #67D3F7;
           min-height: 266px;
       }
       
@@ -829,7 +852,7 @@
           display: flex;
           width: 100%;
           height: 210px;
-          background-color: #5E428C;
+          background-color: #F3EB91;
           justify-content: center;
       }
       
@@ -850,10 +873,14 @@
           text-decoration: none;
       }
       
+      .content-news__block-in-name__title-black {
+          color: #1F1F1F;
+      }
+      
       .content-news__block-in-name__line {
           height: 124px;
-          border: 3px solid #FFFFFF;
-          background-color: #FFFFFF;
+          border: 3px solid #1F1F1F;
+          background-color: #1F1F1F;
       }
       
       .content-news__block-article {
@@ -894,7 +921,7 @@
           width: 221px;
           height: 70px;
           margin-top: 40px;
-          background: #5E428C;
+          background: #1F1F1F;
       }
       /* Картинка палитра */
       
@@ -961,7 +988,7 @@
       .first-footer {
           display: flex;
           flex-direction: column;
-          background-color: #5E428C;
+          background-color: #1F1F1F;
       }
       
       .first-footer__first-block {
@@ -1103,7 +1130,7 @@
       .first-footer__second-block__btn {
           width: 209px;
           height: 64px;
-          background-color: #5E428C;
+          background-color: #1F1F1F;
           border: 1px solid #ffffff;
       }
       

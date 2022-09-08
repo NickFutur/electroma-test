@@ -13,13 +13,16 @@
             }
         }
         
-        @media only screen and (max-width: 1441px) {
+        @media only screen and (max-width: 1440px) {
             .bred-nav__link a {
                 font-size: calc( (100vw - 480px)/(1441 - 480) * (22 - 12) + 12px);
             }
         }
         
         @media only screen and (max-width: 1280px) {
+            .heading-block__text-block {
+                margin-left: 5%;
+            }
             .bred-nav__links {
                 padding-left: 5%;
             }
@@ -28,6 +31,9 @@
         @media only screen and (max-width: 1180px) {
             .main-content {
                 width: 98%;
+            }
+            .heading-block__text-block {
+                margin-left: 7%;
             }
             .heading-block,
             .bred-nav {
@@ -46,6 +52,14 @@
             .main-content__title {
                 margin-right: 30px;
             }
+            .main-content__title-width1 {
+                margin-left: calc( (100vw - 769px)/(1180 - 769) * (700 - 300) + 300px);
+                width: calc( (100vw - 769px)/(1180 - 769) * (450 - 440) + 440px);
+            }
+            .main-content__title-width2 {
+                margin-left: calc( (100vw - 769px)/(1180 - 769) * (1020 - 620) + 620px);
+                width: calc( (100vw - 769px)/(1180 - 769) * (130 - 120) + 120px);
+            }
         }
         
         @media only screen and (max-width: 900px) {
@@ -61,6 +75,9 @@
         }
         
         @media only screen and (max-width: 768px) {
+            .heading-block__text-block {
+                margin-left: 10%;
+            }
             .bred-nav__links {
                 padding-left: 10%;
             }
@@ -68,11 +85,13 @@
                 height: 237px;
             }
             .heading-font-block1 {
-                max-width: 36.98vw;
+                /* max-width: 36.98vw;
+                min-width: 42.31vw; */
+                max-width: 267px;
+                min-width: 267px;
                 margin-top: 0px;
                 max-height: calc( (100vw - 320px)/(768 - 480) * (150 - 120) + 120px);
                 min-height: calc( (100vw - 320px)/(768 - 480) * (150 - 120) + 120px);
-                min-width: 42.31vw;
             }
             .heading-font-block2 {
                 max-height: 170px;
@@ -169,6 +188,34 @@
             .side-menu__link34:hover:after {
                 display: none;
             }
+            .main-content__title {
+                text-align: left;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.04em;
+                margin-bottom: 10px;
+                /* margin-left: 38px; */
+                /* margin-right: calc( (100vw - 320px)/(480 - 320) * (38 - 5) + 5px); */
+            }
+            .main-content__title-width1 {
+                /* margin-left: calc( (100vw - 480px)/(768 - 480) * (290 - 150) + 150px);
+                width: calc( (100vw - 480px)/(768 - 480) * (440 - 240) + 240px); */
+                text-align: right;
+                margin-left: calc( (100vw - 481px)/(768 - 481) * (-260 - -85) + -85px);
+                /* margin-left: calc( (100vw - 480px)/(780 - 480) * (-280 - -185) + -185px); */
+                width: 100%;
+                /* margin-right: calc( (100vw - 480px)/(768 - 480) * (290 - 50) + 50px); */
+            }
+            .main-content__title-width2 {
+                /* margin-left: calc( (100vw - 768px)/(768 - 480) * (1020 - 620) + 620px); */
+                /* width: calc( (100vw - 768px)/(768 - 480) * (-130 - -120) + -120px); */
+                text-align: right;
+                margin-left: calc( (100vw - 481px)/(768 - 481) * (-590 - -325) + -325px);
+                width: 100%;
+            }
         }
         
         @media only screen and (max-width: 480px) {
@@ -176,24 +223,30 @@
                 margin-top: 120px;
             }
             .heading-block__text {
-                font-size: 1.6rem;
-                line-height: 20px;
+                font-size: 1.8rem;
+                line-height: 26px;
             }
             .bred-nav__link a {
                 font-size: 1.2rem;
             }
             .heading-block {
-                height: 160px;
+                height: 118px;
             }
             .heading-font-block1 {
-                max-height: calc( (100vw - 320px)/(480 - 320) * (120 - 100) + 100px);
-                min-height: calc( (100vw - 320px)/(480 - 320) * (120 - 100) + 100px);
+                /* max-height: calc( (100vw - 320px)/(480 - 320) * (120 - 100) + 100px);
+                min-height: calc( (100vw - 320px)/(480 - 320) * (120 - 100) + 100px); */
+                max-height: 118px;
+                min-height: 118px;
             }
             .heading-font-block2 {
-                max-height: 137px;
+                /* max-height: 137px;
                 max-width: 48.72vw;
                 min-height: 137px;
-                min-width: 48.72vw;
+                min-width: 48.72vw; */
+                max-height: 74px;
+                max-width: 210px;
+                min-height: 74px;
+                min-width: 201px;
                 left: 105px;
             }
             .heading-font-block3 {
@@ -205,23 +258,19 @@
             }
             .heading-block__text-block {
                 margin-left: 55px;
+                margin-bottom: 0;
+                margin-top: 10px;
             }
             .bred-nav__links {
                 padding-left: 12%;
             }
-            .main-content__title {
-                font-size: 1.4rem;
-                line-height: 18px;
-                margin-bottom: 18px;
-                margin-right: calc( (100vw - 320px)/(480 - 320) * (30 - 5) + 5px);
-            }
             .side-menu {
-                position: fixed;
-                top: 80px;
+                position: absolute;
+                top: 118px;
             }
             .side-menu__block1 {
-                height: 40px;
-                width: 44px;
+                height: 24px;
+                width: 95vw;
             }
             .side-menu__block2 {
                 height: 80vh;
@@ -234,8 +283,8 @@
             }
             .side-menu__circle {
                 position: absolute;
-                width: 34px;
-                height: 34px;
+                width: 17px;
+                height: 17px;
                 background-color: #E74B8F;
                 border-radius: 34px;
                 margin-left: 5px;
@@ -245,9 +294,9 @@
                 font-family: 'Manrope', sans-serif;
                 color: #FFFFFF;
                 position: absolute;
-                font-size: 4.0rem;
-                margin-left: 10px;
-                margin-top: -12px;
+                font-size: 2.5rem;
+                margin-left: 6px;
+                margin-top: -9px;
             }
             .side-menu__link {
                 font-size: 1.8rem;
@@ -260,7 +309,15 @@
             }
         }
         
-        @media only screen and (max-width: 375px) {}
+        @media only screen and (max-width: 375px) {
+            /*Временно, потом удалить для адаптива*/
+            .main-content__title-width1 {
+                margin-left: -110px;
+            }
+            .main-content__title-width2 {
+                margin-left: -275px;
+            }
+        }
         
         @media only screen and (max-width: 320px) {
             .bred-nav__links {

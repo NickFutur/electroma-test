@@ -62,7 +62,6 @@
     position: relative;
     z-index: 3;
     float: left;
-    margin-left: 80px;
     margin-bottom: 28px;
 }
 
@@ -141,7 +140,7 @@
     width: 44px;
     /* max-height: 800px;
     max-width: 44px; */
-    background-color: #000000;
+    background-color: #1F1F1F;
     cursor: pointer;
 }
 
@@ -170,7 +169,7 @@
 .side-menu__block2 {
     height: 80vh;
     width: 360px;
-    background-color: #000000;
+    background-color: #1F1F1F;
     padding-top: 20px;
     padding-left: 44px;
     padding-right: 30px;
@@ -491,7 +490,26 @@
     line-height: 33px;
     letter-spacing: 0.04em;
     color: #000000;
+    background: #67D3F7;
     margin-bottom: 28px;
+    position: relative;
+    text-align: left;
+}
+
+
+/*Регулировка длины заголовков у текста*/
+
+.main-content__title-width1 {
+    width: calc( (100vw - 1920px)/(2560 - 1920) * (1100 - 780) + 780px);
+    /* Работает до 1180px */
+    margin-left: 760px;
+}
+
+.main-content__title-width2 {
+    /* width: calc( (100vw - 1920px)/(2560 - 1920) * (1080 - 450) + 450px); */
+    width: calc( (100vw - 1440px)/(2560 - 1440) * (770 - 210) + 210px);
+    /* Работает до 1180px */
+    margin-left: 1090px;
 }
 
 .main-content__text {
@@ -499,4 +517,6 @@
     padding-left: 10%;
     margin: 0;
     margin-bottom: 28px;
+    background: none;
+    text-align: right;
 }

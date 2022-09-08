@@ -274,7 +274,7 @@
         top: 52px;
         gap: 0;
         flex-direction: column;
-        background-color: #5E428C;
+        background-color: #1F1F1F;
         width: 100%;
         text-align: center;
         transition: 0.5s;
@@ -403,6 +403,11 @@
     }
     .content-work__block {
         padding-left: 38px;
+    }
+    .content-work__block-all-black {
+        padding: 0;
+        min-height: 100px;
+        line-height: 16px;
     }
     .content-work__block-all-white {
         padding: 0;
@@ -793,6 +798,12 @@
         font-size: 0.7rem;
     }
     .content-work__block-all {
+        padding: 0;
+        font-size: 0.7rem;
+        min-height: 50px;
+        line-height: 9px;
+    }
+    .content-work__block-all-black {
         padding: 0;
         font-size: 0.7rem;
         min-height: 50px;

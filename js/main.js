@@ -166,9 +166,11 @@ $(document).ready(function() {
 
 // Боковое меню при наведении и клике на него
 $("#side-menu__block2").css("display", "none");
+$(".row-close-menu").css("display", "none");
 $('#side-menu__block1').click(function() {
         $('#side-menu__block1').hide();
         $('#side-menu__block2').fadeIn("slow");
+        $('#row-close-menu1').fadeIn("slow");
     })
     // движение стрелочки при наведении
 $('#side-menu__block1').mouseover(function() {
@@ -185,6 +187,7 @@ $('#side-menu__block1').mouseout(function() {
     // скрывает меню при исчезании наведения на меню
 $('#side-menu__block2').mouseleave(function() {
     $('#side-menu__block2').hide();
+    $('.row-close-menu').hide();
     $('#side-menu__block1').fadeIn("slow");
 })
 $('.side-menu__link').click(function() {
@@ -196,3 +199,5 @@ $('.button-close-menu').click(function() {
     $('.side-menu__block2').hide();
     $('.side-menu__block1').fadeIn("slow");
 })
+
+//появление и исчезание стрелочки меню при щелчке

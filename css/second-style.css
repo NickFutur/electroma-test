@@ -167,12 +167,13 @@
 }
 
 .side-menu__block2 {
-    height: 80vh;
+    height: 85vh;
     width: 360px;
     background-color: #1F1F1F;
     padding-top: 20px;
     padding-left: 44px;
     padding-right: 30px;
+    /* padding-bottom: 76px; */
     overflow: auto;
 }
 
@@ -426,6 +427,7 @@
     position: relative;
     z-index: 10;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .side-menu__link {
@@ -470,6 +472,19 @@
 
 .button-close-menu-line:nth-child(2) {
     transform: translateY(1px) rotate(-45deg);
+}
+
+.row-close-menu {
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    z-index: 20;
+}
+
+.row-close__simbol {
+    font-family: 'Manrope', sans-serif;
+    font-size: 5.0rem;
+    color: #FFFFFF;
 }
 
 

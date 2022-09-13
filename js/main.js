@@ -194,9 +194,14 @@ $('.side-menu__link').click(function() {
         $('#side-menu__block2').hide();
         $('#side-menu__block1').fadeIn("slow");
     })
-    // скрытие и открытие бокового меню по закрывающему крестику
+    // скрытие бокового меню по закрывающему крестику
 $('.button-close-menu').click(function() {
     $('.side-menu__block2').hide();
+    $('.side-menu__block1').fadeIn("slow");
+})
+$('.row-close-menu').click(function() {
+    $('.side-menu__block2').hide();
+    $('.row-close-menu').hide();
     $('.side-menu__block1').fadeIn("slow");
 })
 

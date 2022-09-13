@@ -476,7 +476,7 @@
 
 .row-close-menu {
     position: absolute;
-    bottom: 40px;
+    bottom: 120px;
     left: 60px;
     z-index: 20;
 }

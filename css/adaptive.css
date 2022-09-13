@@ -119,19 +119,19 @@
         justify-content: center;
     }
     .content-work__block-products1 {
-        width: 880px;
+        width: 800px;
         height: 160px;
     }
     .content-work__block-advertisement1 {
-        width: 778px;
+        width: 660px;
         height: 160px;
     }
     .content-work__block-logo1 {
-        width: 684px;
+        width: 600px;
         min-height: 160px;
     }
     .content-work__block-print1 {
-        width: 310px;
+        width: 280px;
         height: 266px;
         padding-left: 0;
     }
@@ -371,9 +371,9 @@
         line-height: 17px;
         margin-right: 39px;
     }
-    .content-portfolio__btn:hover {
+    /* .content-portfolio__btn:hover {
         font-size: 1.4rem;
-    }
+    } */
     .content-portfolio__margin-btn {
         margin-top: 90px;
     }
@@ -572,9 +572,9 @@
         font-size: 0.8rem;
         line-height: 12px;
     }
-    .first-footer__block__btn:hover {
+    /* .first-footer__block__btn:hover {
         font-size: 1.0rem;
-    }
+    } */
     .first-footer__block__main-text {
         margin-bottom: 16px;
     }
@@ -599,9 +599,9 @@
         font-size: 1.2rem;
         line-height: 16px
     }
-    .first-footer__second-block__text-link:hover {
+    /* .first-footer__second-block__text-link:hover {
         font-size: 1.4rem;
-    }
+    } */
     .first-footer__second-block {
         width: 100%;
         margin-bottom: 6px;
@@ -750,14 +750,14 @@
     .content-portfolio__btn {
         width: 150px;
         height: 35px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         line-height: 17px;
         align-self: center;
         margin-right: 39px;
     }
-    .content-portfolio__btn:hover {
+    /* .content-portfolio__btn:hover {
         font-size: 1.1rem;
-    }
+    } */
     .content-portfolio__margin-btn {
         margin-top: 22px;
     }
@@ -894,7 +894,7 @@
     }
     .content-news__block-in-name__line {
         height: 40px;
-        border: 1px solid #FFFFFF;
+        border: 1px solid #1F1F1F;
     }
     .content-news__block-article__news-article {
         margin-top: 30px;
@@ -1072,7 +1072,7 @@
     }
     .content-work__block-print1 {
         top: calc( (100vw - 1441px)/(2560 - 1441) * (665 - 515) + 515px);
-        width: 37%;
+        width: 35%;
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 266) + 266px);
     }
     .content-work__block-print2 {

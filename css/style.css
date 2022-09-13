@@ -291,7 +291,7 @@
       .main-head__block-in__link:hover {
           text-decoration: underline;
           color: #F3EB91;
-          font-size: 1.4rem;
+          /* font-size: 1.4rem; */
       }
       /*Контент часть*/
       
@@ -429,7 +429,7 @@
       
       .content-portfolio__btn:hover {
           text-decoration: underline;
-          font-size: 1.4rem;
+          /* font-size: 1.4rem; */
           color: #FFFFFF;
       }
       
@@ -680,12 +680,13 @@
           display: flex;
           top: 515px;
           right: 0px;
-          width: 410px;
+          width: 300px;
           height: 266px;
           background: #67D3F7;
           align-items: center;
           justify-content: center;
           cursor: pointer;
+          padding-left: 0;
       }
       
       .content-work__block-print2 {
@@ -1048,7 +1049,7 @@
       }
       
       .first-footer__block__btn:hover {
-          font-size: 2.0rem;
+          /* font-size: 2.0rem; */
           text-decoration: underline;
           color: #FFFFFF;
       }
@@ -1118,10 +1119,9 @@
           text-decoration: none;
           margin-bottom: 24px;
       }
-      
-      .first-footer__second-block__text-link:hover {
+      /* .first-footer__second-block__text-link:hover {
           font-size: 1.8rem;
-      }
+      } */
       
       .first-footer__text-width {
           width: 204px;
@@ -1136,7 +1136,7 @@
       
       .first-footer__second-block__btn:hover {
           text-decoration: underline;
-          font-size: 2.0rem;
+          /* font-size: 2.0rem; */
       }
       /*Второй подвал*/
       

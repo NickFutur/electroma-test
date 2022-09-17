@@ -36,100 +36,115 @@ $(document).ready(function() {
     });
 });
 
-// Окрытие и закрытие вкладок тему "Услуги типографии"
+// Окрытие и закрытие вкладок тему "Услуги типографии" (Не работает)
 $(document).ready(function() {
-    // $("#turn-off1").css("display", "none");
+    $("#turn-off1").css("display", "none");
     // $('#turn-on1').mouseenter(function() {
     //     $('#turn-on1').hide();
     //     $('#turn-off1').fadeIn("slow");
     // })
-    $("#turn-off1").css("display", "none");
+    // $("#turn-off1").css("display", "none");
     $('#turn-on1').mouseenter(function() {
         $('#turn-on1').hide();
-        $('#turn-off1').css("display", "flex");
+        $('#turn-off1').fadeIn(1000);
         // $('#turn-off1').css("display", "flex");
         // $('#turn-off1').animate({ left: "100px" }, 1000);
 
     })
     $('#turn-off1').mouseleave(function() {
         $('#turn-off1').hide();
-        $('#turn-on1').css("display", "flex");
+        $('#turn-on1').fadeIn(500);
     })
     $('.button-close').click(function() {
         $('#turn-off1').hide();
-        $('#turn-on1').css("display", "flex");
+        $('#turn-on1').fadeIn(500);
     })
 
 
 
-
+    //   $('.mainText').slideUp(1000).slideDown(1000);
 
     $("#turn-off2").css("display", "none");
     $('#turn-on2').mouseenter(function() {
         $('#turn-on2').hide();
-        $('#turn-off2').css("display", "flex");
+        $('#turn-off2').fadeIn(1000);
+        $("#turn-on2").stop(false, false);
     })
     $('#turn-off2').mouseleave(function() {
         $('#turn-off2').hide();
-        $('#turn-on2').css("display", "flex");
+        $('#turn-on2').fadeIn(500);
+        $("#turn-off2").stop(false, false);
     })
     $('.button-close').click(function() {
         $('#turn-off2').hide();
-        $('#turn-on2').css("display", "flex");
+        $('#turn-on2').fadeIn(500);
+        $("#turn-off2").stop(false, false);
     })
 
     $("#turn-off3").css("display", "none");
     $('#turn-on3').mouseenter(function() {
         $('#turn-on3').hide();
-        $('#turn-off3').css("display", "flex");
+        $('#turn-off3').fadeIn(1000);
+        $("#turn-on3").stop(false, false);
     })
     $('#turn-off3').mouseleave(function() {
         $('#turn-off3').hide();
-        $('#turn-on3').css("display", "flex");
+        $('#turn-on3').fadeIn(500);
+        $("#turn-off3").stop(false, false);
     })
     $('.button-close').click(function() {
         $('#turn-off3').hide();
-        $('#turn-on3').css("display", "flex");
+        $('#turn-on3').fadeIn(500);
+        $("#turn-off3").stop(false, false);
     })
     $("#turn-off4").css("display", "none");
     $('#turn-on4').mouseenter(function() {
         $('#turn-on4').hide();
-        $('#turn-off4').css("display", "flex");
+        $('#turn-off4').fadeIn(1000);
+        $("#turn-on4").stop(false, false);
     })
     $('#turn-off4').mouseleave(function() {
         $('#turn-off4').hide();
-        $('#turn-on4').css("display", "flex");
+        $('#turn-on4').fadeIn(500);
+        $("#turn-off4").stop(false, false);
     })
     $('.button-close').click(function() {
         $('#turn-off4').hide();
-        $('#turn-on4').css("display", "flex");
+        $('#turn-on4').fadeIn(500);
+        $("#turn-off4").stop(false, false);
     })
 
     $("#turn-off5").css("display", "none");
     $('#turn-on5').mouseenter(function() {
         $('#turn-on5').hide();
-        $('#turn-off5').css("display", "flex");
+        $('#turn-off5').fadeIn(1000);
+        $("#turn-on5").stop(false, false);
     })
     $('#turn-off5').mouseleave(function() {
         $('#turn-off5').hide();
-        $('#turn-on5').css("display", "flex");
+        $('#turn-on5').fadeIn(500);
+        $("#turn-off5").stop(false, false);
     })
     $('.button-close').click(function() {
         $('#turn-off5').hide();
-        $('#turn-on5').css("display", "flex");
+        $('#turn-on5').fadeIn(500);
+        $("#turn-off5").stop(false, false);
     })
     $("#turn-off6").css("display", "none");
     $('#turn-on6').mouseenter(function() {
         $('#turn-on6').hide();
-        $('#turn-off6').css("display", "flex");
+        $('#turn-off6').fadeIn(1000);
+        $("#turn-on6").stop(false, false);
     })
     $('#turn-off6').mouseleave(function() {
         $('#turn-off6').hide();
-        $('#turn-on6').css("display", "flex");
+        $('#turn-on6').fadeIn(500);
+        $("#turn-off6").stop(false, false);
     })
     $('.button-close').click(function() {
         $('#turn-off6').hide();
-        $('#turn-on6').css("display", "flex");
+        $('#turn-on6').fadeIn(500);
+        $("#turn-off6").stop(false, false);
     })
 
     // Окрытие и закрытие вкладок тему "Что мы делаем"
@@ -137,42 +152,42 @@ $(document).ready(function() {
     $(".content-work__block-on").css("display", "none");
     $('.content-work__block-off').mouseenter(function() {
         $('.content-work__block-off').hide();
-        $('.content-work__block-on').fadeIn("fast");
+        $('.content-work__block-on').fadeIn(500);
     })
     $('.content-work__block-on').mouseleave(function() {
         $('.content-work__block-on').hide();
-        $('.content-work__block-off').fadeIn("fast");
+        $('.content-work__block-off').fadeIn(500);
     })
 
     $(".content-work__block-on-ad").css("display", "none");
     $('.content-work__block-off-ad').mouseenter(function() {
         $('.content-work__block-off-ad').hide();
-        $('.content-work__block-on-ad').fadeIn("fast");
+        $('.content-work__block-on-ad').fadeIn(500);
     })
     $('.content-work__block-on-ad').mouseleave(function() {
         $('.content-work__block-on-ad').hide();
-        $('.content-work__block-off-ad').fadeIn("fast");
+        $('.content-work__block-off-ad').fadeIn(500);
     })
 
     $(".content-work__block-on-logo").css("display", "none");
     $('.content-work__block-off-logo').mouseenter(function() {
         $('.content-work__block-off-logo').hide();
-        $('.content-work__block-on-logo').fadeIn("fast");
+        $('.content-work__block-on-logo').fadeIn(500);
     })
     $('.content-work__block-on-logo').mouseleave(function() {
         $('.content-work__block-on-logo').hide();
-        $('.content-work__block-off-logo').fadeIn("fast");
+        $('.content-work__block-off-logo').fadeIn(500);
     })
 
     $(".content-work__block-on-print").css("display", "none");
     $('.content-work__block-off-print').mouseenter(function() {
 
         $('.content-work__block-off-print').hide();
-        $('.content-work__block-on-print').fadeIn("fast");
+        $('.content-work__block-on-print').fadeIn(500);
     })
     $('.content-work__block-on-print').mouseleave(function() {
         $('.content-work__block-on-print').hide();
-        $('.content-work__block-off-print').fadeIn("fast");
+        $('.content-work__block-off-print').fadeIn(500);
     })
 });
 

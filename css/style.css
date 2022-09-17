@@ -757,6 +757,32 @@
           padding-inline-start: 0px;
           margin-top: 61px;
       }
+      /*Тест анимации для темы видов печати*/
+      
+      .open {
+          /* display: flex; */
+          background-color: #000;
+          /* animation: opencard 1s ease-in-out 1s 1 alternate; */
+      }
+      
+      .close {
+          display: none;
+      }
+      
+      @keyframes opencard {
+          0% {
+              width: 0%;
+              opacity: 0;
+          }
+          50% {
+              width: 50%;
+              opacity: 0.5;
+          }
+          100% {
+              width: 100%;
+              opacity: 1;
+          }
+      }
       
       .content-service__li__face-block {
           display: flex;

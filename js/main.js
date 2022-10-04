@@ -200,23 +200,40 @@ $('#side-menu__block1').click(function() {
         $('#row-close-menu1').fadeIn("slow");
     })
     // движение стрелочки при наведении
+    // $('#side-menu__block1' && '.side-menu__arrow').mouseover(function() {
+    //     $(".side-menu__arrow").animate({
+    //         'margin-top': '28px'
+    //     }, 1500);
+    // });
+    // $('#side-menu__block1' && '.side-menu__arrow').mouseout(function() {
+    //     $(".side-menu__arrow").animate({
+    //         'margin-top': '247px'
+    //     }, 1500);
+    //     $(".side-menu__arrow").stop(false, false); //небольшой баг при срабатывании, иногда требуется открыть меню для того, чтобы стрелка опустилась вниз
+    // });
+    // баг, сбой анимации, если ей не дать выполниться полностью
 $('#side-menu__block1').mouseover(function() {
     $(".side-menu__arrow").animate({
-        'margin-top': '28px'
-    }, 1500);
-})
+            'margin-top': '28px'
+        }, 1500,
+        function() {
+            $(".side-menu__arrow").stop(true, false);
+        });
+});
 $('#side-menu__block1').mouseout(function() {
-        $(".side-menu__arrow").animate({
+    $(".side-menu__arrow").animate({
             'margin-top': '247px'
-        }, 1500);
-        $(".side-menu__arrow").stop(false, false); //небольшой баг при срабатывании, иногда требуется открыть меню для того, чтобы стрелка опустилась вниз
-    })
-    // скрывает меню при исчезании наведения на меню
+        }, 1500,
+        function() {
+            $(".side-menu__arrow").stop(false, true);
+        });
+});
+// скрывает меню при исчезании наведения на меню
 $('#side-menu__block2').mouseleave(function() {
     $('#side-menu__block2').hide();
     $('.row-close-menu').hide();
     $('#side-menu__block1').fadeIn("slow");
-})
+});
 $('.side-menu__link').click(function() {
         $('#side-menu__block2').hide();
         $('#side-menu__block1').fadeIn("slow");
@@ -225,11 +242,11 @@ $('.side-menu__link').click(function() {
 $('.button-close-menu').click(function() {
     $('.side-menu__block2').hide();
     $('.side-menu__block1').fadeIn("slow");
-})
+});
 $('.row-close-menu').click(function() {
     $('.side-menu__block2').hide();
     $('.row-close-menu').hide();
     $('.side-menu__block1').fadeIn("slow");
-})
+});
 
 //появление и исчезание стрелочки меню при щелчке

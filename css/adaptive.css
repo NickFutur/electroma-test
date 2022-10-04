@@ -284,6 +284,9 @@
     .nav-item {
         margin: 16px 0;
     }
+    ul {
+        padding-left: 0;
+    }
     body.nav-menu.active {
         overflow-y: hidden;
     }
@@ -673,6 +676,7 @@
         font-size: 1.0rem;
         line-height: 14px;
         color: #FFFFFF;
+        text-align: center;
     }
     .content {
         margin-top: 18px;

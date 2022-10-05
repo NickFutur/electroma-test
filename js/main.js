@@ -200,34 +200,20 @@ $('#side-menu__block1').click(function() {
         $('#row-close-menu1').fadeIn("slow");
     })
     // движение стрелочки при наведении
-    // $('#side-menu__block1' && '.side-menu__arrow').mouseover(function() {
-    //     $(".side-menu__arrow").animate({
-    //         'margin-top': '28px'
-    //     }, 1500);
-    // });
-    // $('#side-menu__block1' && '.side-menu__arrow').mouseout(function() {
-    //     $(".side-menu__arrow").animate({
-    //         'margin-top': '247px'
-    //     }, 1500);
-    //     $(".side-menu__arrow").stop(false, false); //небольшой баг при срабатывании, иногда требуется открыть меню для того, чтобы стрелка опустилась вниз
-    // });
-    // баг, сбой анимации, если ей не дать выполниться полностью
-$('#side-menu__block1').mouseover(function() {
+$('#side-menu__block1').mouseenter(function() {
     $(".side-menu__arrow").animate({
-            'margin-top': '28px'
-        }, 1500,
-        function() {
-            $(".side-menu__arrow").stop(true, false);
-        });
+        'margin-top': '28px'
+    }, 1000);
 });
-$('#side-menu__block1').mouseout(function() {
+$('#side-menu__block1').mouseleave(function() {
     $(".side-menu__arrow").animate({
             'margin-top': '247px'
-        }, 1500,
+        }, 1000,
         function() {
             $(".side-menu__arrow").stop(false, true);
         });
 });
+
 // скрывает меню при исчезании наведения на меню
 $('#side-menu__block2').mouseleave(function() {
     $('#side-menu__block2').hide();

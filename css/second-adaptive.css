@@ -314,6 +314,7 @@
                 color: #FFFFFF;
                 font-size: 1.4rem;
                 margin-left: 11%;
+                text-transform: uppercase;
             }
             .side-menu__link {
                 font-size: 1.8rem;
@@ -435,12 +436,12 @@
                 right: calc( (100vw - 320px)/(480 - 320) * (30 - 5) + 5px);
             }
             .heading-block__text-block {
-                margin-left: 12%;
+                margin-left: 10%;
                 margin-bottom: 0;
                 margin-top: 10px;
             }
             .bred-nav__links {
-                padding-left: 12%;
+                padding-left: 10%;
             }
             .side-menu {
                 position: absolute;
@@ -488,10 +489,10 @@
         
         @media only screen and (max-width: 425px) {
             .bred-nav__links {
-                padding-left: 13%;
+                padding-left: 10%;
             }
             .heading-block__text-block {
-                margin-left: 13%;
+                margin-left: 10%;
             }
         }
         
@@ -507,10 +508,10 @@
         
         @media only screen and (max-width: 320px) {
             .bred-nav__links {
-                padding-left: 17%;
+                padding-left: 13%;
             }
             .heading-block__text-block {
-                margin-left: 17%;
+                margin-left: 13%;
             }
             .heading-font-block2 {
                 max-width: 190px;

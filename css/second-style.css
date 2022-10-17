@@ -123,9 +123,6 @@
     z-index: 3;
 }
 
-
-/* Нужно для этого класса создать условие */
-
 .side-menu-off {
     position: absolute;
     z-index: 3;
@@ -138,8 +135,6 @@
 .side-menu__block1 {
     height: 80vh;
     width: 44px;
-    /* max-height: 800px;
-    max-width: 44px; */
     background-color: #1F1F1F;
     cursor: pointer;
 }
@@ -173,7 +168,6 @@
     padding-top: 20px;
     padding-left: 44px;
     padding-right: 30px;
-    /* padding-bottom: 76px; */
     overflow: auto;
 }
 
@@ -241,11 +235,11 @@
 }
 
 .side-menu__link-double:hover:after {
-    transition-delay: 500ms;
+    transition-delay: 100ms;
 }
 
 .side-menu__link:hover:after {
-    transition-delay: 500ms;
+    transition-delay: 100ms;
     margin-top: 15px;
 }
 
@@ -453,8 +447,6 @@
     top: 0;
     cursor: pointer;
     z-index: 20;
-    /* top: 20px;
-    right: 20px; */
 }
 
 .button-close-menu-line {
@@ -522,7 +514,6 @@
 }
 
 .main-content__title-width2 {
-    /* width: calc( (100vw - 1920px)/(2560 - 1920) * (1080 - 450) + 450px); */
     width: calc( (100vw - 1440px)/(2560 - 1440) * (770 - 210) + 210px);
     /* Работает до 1180px */
     margin-left: 1090px;

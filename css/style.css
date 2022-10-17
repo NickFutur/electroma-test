@@ -30,6 +30,7 @@
       body.active-block {
           position: relative;
       }
+      /* Прелоадер */
       
       .preloader {
           position: fixed;
@@ -115,6 +116,7 @@
               transform: translate(0, 160%)
           }
       }
+      /* Шапка */
       
       header {
           background-color: #FFFFFF;
@@ -240,10 +242,6 @@
       }
       
       .main-head__link:hover {
-          /* letter-spacing: 0.04em;
-          color: #F3EB91;
-          text-shadow: 1px 0 1px #252525, 0 1px 1px #252525, -1px 0 1px #252525, 0 -1px 1px #252525;
-          cursor: pointer; */
           text-decoration: underline;
       }
       
@@ -291,7 +289,6 @@
       .main-head__block-in__link:hover {
           text-decoration: underline;
           color: #F3EB91;
-          /* font-size: 1.4rem; */
       }
       /*Контент часть*/
       
@@ -310,7 +307,6 @@
       .content__head-block {
           position: absolute;
           margin-top: 37px;
-          /* margin-left: 360px; */
           margin-left: calc( (100vw - 1440px)/(1920 - 1440) * (360 - 130) + 130px);
       }
       
@@ -429,7 +425,6 @@
       
       .content-portfolio__btn:hover {
           text-decoration: underline;
-          /* font-size: 1.4rem; */
           color: #FFFFFF;
       }
       
@@ -492,7 +487,6 @@
           cursor: pointer;
           background-color: rgba(255, 255, 255, 0.7);
           background-position: center;
-          /* width: calc( (100vw - 480px)/(1920 - 480) * (116 - 43) + 43px); */
           height: calc( (100vw - 480px)/(1920 - 480) * (116 - 43) + 43px);
           border-radius: 100px;
           border-color: rgba(255, 255, 255, 0);
@@ -760,9 +754,7 @@
       /*Тест анимации для темы видов печати*/
       
       .open {
-          /* display: flex; */
           background-color: #000;
-          /* animation: opencard 1s ease-in-out 1s 1 alternate; */
       }
       
       .close {
@@ -1075,7 +1067,6 @@
       }
       
       .first-footer__block__btn:hover {
-          /* font-size: 2.0rem; */
           text-decoration: underline;
           color: #FFFFFF;
       }
@@ -1145,9 +1136,6 @@
           text-decoration: none;
           margin-bottom: 24px;
       }
-      /* .first-footer__second-block__text-link:hover {
-          font-size: 1.8rem;
-      } */
       
       .first-footer__text-width {
           width: 204px;
@@ -1162,7 +1150,6 @@
       
       .first-footer__second-block__btn:hover {
           text-decoration: underline;
-          /* font-size: 2.0rem; */
       }
       /*Второй подвал*/
       
@@ -1182,7 +1169,6 @@
       
       .main-head__main-title-footer a {
           font-size: 2.4rem;
-          /* line-height: 35px; */
           letter-spacing: 0.04em;
           padding-top: 5px;
           text-decoration: none;
